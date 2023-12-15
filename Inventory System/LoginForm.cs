@@ -7,14 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Dbsys;
+using Inventory_System.Database;
+
 
 namespace Inventory_System
 {
     public partial class LoginForm : Form
     {
+        DBInventoryEntities1 db;
+        UserLogged userLogged;
+        UserRepository userRepo;
         public LoginForm()
         {
             InitializeComponent();
+            userRepo = new UserRepository();
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
@@ -47,6 +54,36 @@ namespace Inventory_System
             { 
                 Application.Exit();
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Register().Show();
+
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {            db = new DBInventoryEntities1();
+
+            var userLogged = userRepo.GetUserByUsername(txtName.Text);
+
+            if (userLogged != null)
+            {
+                if (userLogged.username.Equals(txtName.Text))
+                {
+
+                    // Assigned to a singleton
+                    UserLogged.GetInstance().UserAccount = userLogged;
+
+                    new MainForm().Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Incorrect Password");
+                }
+            }
+                                      
         }
     }
 }
