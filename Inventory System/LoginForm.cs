@@ -58,7 +58,7 @@ namespace Inventory_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new Register().Show();
+            new UserModuleForm().Show();
 
         }
 

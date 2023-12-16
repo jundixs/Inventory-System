@@ -7,12 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
+using Inventory_System.Database;
+
 
 namespace Inventory_System
 {
     public partial class UserModuleForm : Form
     {
+        DBInventoryEntities1 db;
+        UserAccount ua;
+
         public UserModuleForm()
         {
             InitializeComponent();
@@ -24,6 +28,19 @@ namespace Inventory_System
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Exit Application", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserModuleForm_Load(object sender, EventArgs e)
         {
 
         }

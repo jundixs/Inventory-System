@@ -14,6 +14,8 @@ namespace Inventory_System.Database
     
     public partial class UserAccount
     {
+        internal string fullname;
+
         public string FirstName { get; set; }
         public int userId { get; set; }
         public string LastName { get; set; }
