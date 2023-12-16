@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
         MAAA6mAAADqYAAAXcJy6UTwAACruSURBVHhe7d0JtBxlmf9x781GAgkIjJoNFGRChMOmgEBQYNzQYURk
@@ -328,7 +328,7 @@
   <data name="Column5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABkcSURBVHhe7d17
+        wQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABkcSURBVHhe7d17
         sHZXQd/xAIlcQ/BSi+Va7U2u4TJYZ2zFYOkwFEQIUqnSmWKIgAMjBYIgDq2jIFAjY60DBIwUgqKBIKJc
         CgRBbKtTLuFaEFoh4eaUShJoLqT9reKBkKz37Pe873nWXmvtz2fm+w91NHkeun777POcZ58AAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -445,7 +445,7 @@
   <data name="Column6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
-        RQAADUUBUfHEqAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADe5SURBVHhe7d19
+        RAAADUQBg7YmTAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADe5SURBVHhe7d19
         /P/ZXOdxM2YYJpeDRlaustGOiAjdBkulokK0ZmLVFptr0ypdrISWbbktulBsrjaJXCTXKrSJiEIxKEK5
         vhgyzLi2z8OZm+Plecyc3/ecz/d9PufxvN3u/7zU75zz/Zzv+/uc3+/7/XzP98UvfhFYlnKUXF1uJqfK
         afI/5QnyQvk7eY98VtL/A7bvbHmnvEr+RB4rD5Z7yG3lZPlmdx+AldghsM+U4+VW8jh5v5RfPLCO0+XX

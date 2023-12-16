@@ -53,16 +53,18 @@
             // 
             // txtFname
             // 
+            this.txtFname.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFname.Location = new System.Drawing.Point(104, 37);
             this.txtFname.Name = "txtFname";
-            this.txtFname.Size = new System.Drawing.Size(225, 20);
+            this.txtFname.Size = new System.Drawing.Size(225, 22);
             this.txtFname.TabIndex = 1;
             // 
             // txtLname
             // 
+            this.txtLname.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLname.Location = new System.Drawing.Point(104, 70);
             this.txtLname.Name = "txtLname";
-            this.txtLname.Size = new System.Drawing.Size(225, 20);
+            this.txtLname.Size = new System.Drawing.Size(225, 22);
             this.txtLname.TabIndex = 3;
             // 
             // label2
@@ -77,9 +79,10 @@
             // 
             // txtPass
             // 
+            this.txtPass.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPass.Location = new System.Drawing.Point(104, 146);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(225, 20);
+            this.txtPass.Size = new System.Drawing.Size(225, 22);
             this.txtPass.TabIndex = 5;
             this.txtPass.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -96,9 +99,10 @@
             // 
             // txtEmail
             // 
+            this.txtEmail.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.Location = new System.Drawing.Point(104, 184);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(225, 20);
+            this.txtEmail.Size = new System.Drawing.Size(225, 22);
             this.txtEmail.TabIndex = 7;
             // 
             // label4
@@ -134,9 +138,10 @@
             // 
             // txtUsername
             // 
+            this.txtUsername.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsername.Location = new System.Drawing.Point(104, 108);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(225, 20);
+            this.txtUsername.Size = new System.Drawing.Size(225, 22);
             this.txtUsername.TabIndex = 10;
             // 
             // Register
@@ -157,6 +162,7 @@
             this.Controls.Add(this.txtFname);
             this.Controls.Add(this.label1);
             this.Name = "Register";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
             this.Load += new System.EventHandler(this.Register_Load);
             this.ResumeLayout(false);

@@ -36,7 +36,7 @@
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.txtFullName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtPass = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtPhone = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -119,13 +119,13 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Full Name :";
             // 
-            // txtPass
+            // txtPassword
             // 
-            this.txtPass.Location = new System.Drawing.Point(128, 185);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(341, 23);
-            this.txtPass.TabIndex = 6;
+            this.txtPassword.Location = new System.Drawing.Point(128, 185);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(341, 23);
+            this.txtPassword.TabIndex = 6;
             // 
             // label4
             // 
@@ -206,7 +206,7 @@
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtPass);
+            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtFullName);
             this.Controls.Add(this.label3);
@@ -236,7 +236,7 @@
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.TextBox txtFullName;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.Label label5;

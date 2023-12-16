@@ -29,6 +29,7 @@ namespace Inventory_System.Database
         }
     
         public DbSet<UserAccount> UserAccount { get; set; }
+        public DbSet<UserModule> UserModule { get; set; }
     
         public virtual int sp_createAccount(string firstName, string lastName, string password, string email, string username)
         {
@@ -53,6 +54,11 @@ namespace Inventory_System.Database
                 new ObjectParameter("username", typeof(string));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_createAccount", firstNameParameter, lastNameParameter, passwordParameter, emailParameter, usernameParameter);
+        }
+
+        internal void sp_saveAccount(object username, object fullname, object password, object phone)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -71,6 +71,9 @@
     <Compile Include="Database\UserAccount.cs">
       <DependentUpon>InventorySystem.tt</DependentUpon>
     </Compile>
+    <Compile Include="Database\UserModule.cs">
+      <DependentUpon>InventorySystem.tt</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>

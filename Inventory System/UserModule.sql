@@ -1,0 +1,9 @@
+USE DBInventory
+
+CREATE TABLE UserModule (
+    UserID INT PRIMARY KEY IDENTITY(1,1),
+    UserName NVARCHAR(50) NOT NULL,
+    FullName NVARCHAR(100) NOT NULL,
+    UserPass NVARCHAR(50) NOT NULL,
+    PhoneNo NVARCHAR(20) NULL
+);

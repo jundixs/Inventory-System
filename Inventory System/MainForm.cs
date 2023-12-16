@@ -21,5 +21,10 @@ namespace Inventory_System
         {
 
         }
+
+        private void btnUser_Click(object sender, EventArgs e)
+        {
+            new UserForm().Show();
+        }
     }
 }
