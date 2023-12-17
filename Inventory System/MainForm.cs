@@ -46,5 +46,10 @@ namespace Inventory_System
         {
 
         }
+
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
