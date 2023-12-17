@@ -28,6 +28,10 @@ namespace Inventory_System.Database
             throw new UnintentionalCodeFirstException();
         }
     
+        public DbSet<Categories> Categories { get; set; }
+        public DbSet<Customers> Customers { get; set; }
+        public DbSet<Orders> Orders { get; set; }
+        public DbSet<Product> Product { get; set; }
         public DbSet<UserAccount> UserAccount { get; set; }
         public DbSet<UserModule> UserModule { get; set; }
     
@@ -54,11 +58,6 @@ namespace Inventory_System.Database
                 new ObjectParameter("username", typeof(string));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_createAccount", firstNameParameter, lastNameParameter, passwordParameter, emailParameter, usernameParameter);
-        }
-
-        internal void sp_saveAccount(object username, object fullname, object password, object phone)
-        {
-            throw new NotImplementedException();
         }
     }
 }

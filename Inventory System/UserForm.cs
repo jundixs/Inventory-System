@@ -21,5 +21,10 @@ namespace Inventory_System
         {
             new UserModuleForm().Show();
         }
+
+        private void dgvUser_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

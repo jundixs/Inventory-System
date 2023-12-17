@@ -5,8 +5,16 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="2550ca3b72ba419baa8fd80e896f6e06" Name="Diagram1">
-        <EntityTypeShape EntityType="DBInventoryModel.UserAccount" Width="1.5" PointX="0.75" PointY="0.75" />
-        <EntityTypeShape EntityType="DBInventoryModel.UserModule" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DBInventoryModel.Categories" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DBInventoryModel.Customers" Width="1.5" PointX="0.75" PointY="1" />
+        <EntityTypeShape EntityType="DBInventoryModel.Orders" Width="1.5" PointX="3" PointY="1.125" />
+        <EntityTypeShape EntityType="DBInventoryModel.Product" Width="1.5" PointX="2.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DBInventoryModel.UserAccount" Width="1.5" PointX="4.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DBInventoryModel.UserModule" Width="1.5" PointX="5.75" PointY="0.75" />
+        <AssociationConnector Association="DBInventoryModel.FK__Orders__Customer__114A936A" ManuallyRouted="true" >
+          <ConnectorPoint PointX="2.25" PointY="2.1151432291666667" />
+          <ConnectorPoint PointX="3" PointY="2.1151432291666667" />
+        </AssociationConnector>
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

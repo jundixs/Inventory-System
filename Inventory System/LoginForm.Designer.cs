@@ -95,6 +95,7 @@
             // 
             // txtName
             // 
+            this.txtName.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName.Location = new System.Drawing.Point(28, 221);
             this.txtName.Multiline = true;
             this.txtName.Name = "txtName";
