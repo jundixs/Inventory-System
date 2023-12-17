@@ -36,7 +36,7 @@ namespace Inventory_System
 
         private void checkBoxPass_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBoxPass.Checked == false)
+            if (checkBoxPass.Checked)
                 txtPass.UseSystemPasswordChar = true;
             else
                 txtPass.UseSystemPasswordChar = false;
@@ -84,6 +84,11 @@ namespace Inventory_System
                 }
             }
                                       
+        }
+
+        private void txtPass_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

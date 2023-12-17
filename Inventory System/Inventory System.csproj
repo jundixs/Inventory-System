@@ -53,6 +53,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerForm.Designer.cs">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CutomerModuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CutomerModuleForm.Designer.cs">
+      <DependentUpon>CutomerModuleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Categories.cs">
+      <DependentUpon>InventorySystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Customers.cs">
+      <DependentUpon>InventorySystem.tt</DependentUpon>
+    </Compile>
     <Compile Include="Database\InventorySystem.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -67,6 +85,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>InventorySystem.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Orders.cs">
+      <DependentUpon>InventorySystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Product.cs">
+      <DependentUpon>InventorySystem.tt</DependentUpon>
     </Compile>
     <Compile Include="Database\UserAccount.cs">
       <DependentUpon>InventorySystem.tt</DependentUpon>
@@ -108,6 +132,9 @@
       <DependentUpon>UserModuleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UserRepository\UserRepository.cs" />
+    <EmbeddedResource Include="CustomerForm.resx">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>

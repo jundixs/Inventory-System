@@ -17,6 +17,21 @@ namespace Inventory_System
             InitializeComponent();
         }
 
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        { 
+            if (activeForm != null) 
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelMain.Controls.Add(childForm);
+            panelMain.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
         private void panelMain_Paint(object sender, PaintEventArgs e)
         {
 
@@ -24,7 +39,12 @@ namespace Inventory_System
 
         private void btnUser_Click(object sender, EventArgs e)
         {
-            new UserForm().Show();
+            openChildForm(new UserForm());
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

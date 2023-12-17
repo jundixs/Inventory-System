@@ -65,7 +65,7 @@
             this.txtLname.Location = new System.Drawing.Point(104, 70);
             this.txtLname.Name = "txtLname";
             this.txtLname.Size = new System.Drawing.Size(225, 22);
-            this.txtLname.TabIndex = 3;
+            this.txtLname.TabIndex = 2;
             // 
             // label2
             // 
@@ -83,7 +83,7 @@
             this.txtPass.Location = new System.Drawing.Point(104, 146);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(225, 22);
-            this.txtPass.TabIndex = 5;
+            this.txtPass.TabIndex = 4;
             this.txtPass.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label3
@@ -103,7 +103,7 @@
             this.txtEmail.Location = new System.Drawing.Point(104, 184);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(225, 22);
-            this.txtEmail.TabIndex = 7;
+            this.txtEmail.TabIndex = 5;
             // 
             // label4
             // 
@@ -121,7 +121,7 @@
             this.btnRegister.Location = new System.Drawing.Point(145, 241);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(104, 23);
-            this.btnRegister.TabIndex = 8;
+            this.btnRegister.TabIndex = 6;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
@@ -142,7 +142,7 @@
             this.txtUsername.Location = new System.Drawing.Point(104, 108);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(225, 22);
-            this.txtUsername.TabIndex = 10;
+            this.txtUsername.TabIndex = 3;
             // 
             // Register
             // 
