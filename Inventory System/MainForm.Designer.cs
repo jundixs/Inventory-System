@@ -79,7 +79,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label7.Location = new System.Drawing.Point(757, 65);
+            this.label7.Location = new System.Drawing.Point(804, 66);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(58, 17);
             this.label7.TabIndex = 18;
@@ -89,7 +89,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label6.Location = new System.Drawing.Point(652, 65);
+            this.label6.Location = new System.Drawing.Point(681, 66);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 17);
             this.label6.TabIndex = 17;
@@ -99,7 +99,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label5.Location = new System.Drawing.Point(523, 65);
+            this.label5.Location = new System.Drawing.Point(530, 66);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(86, 17);
             this.label5.TabIndex = 16;
@@ -109,7 +109,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label4.Location = new System.Drawing.Point(408, 65);
+            this.label4.Location = new System.Drawing.Point(395, 66);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 17);
             this.label4.TabIndex = 15;
@@ -119,7 +119,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label2.Location = new System.Drawing.Point(289, 65);
+            this.label2.Location = new System.Drawing.Point(258, 66);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 14;
@@ -128,7 +128,7 @@
             // btnOrder
             // 
             this.btnOrder.Image = ((System.Drawing.Image)(resources.GetObject("btnOrder.Image")));
-            this.btnOrder.Location = new System.Drawing.Point(756, 12);
+            this.btnOrder.Location = new System.Drawing.Point(803, 13);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(55, 50);
             this.btnOrder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -138,7 +138,7 @@
             // btnUser
             // 
             this.btnUser.Image = ((System.Drawing.Image)(resources.GetObject("btnUser.Image")));
-            this.btnUser.Location = new System.Drawing.Point(644, 12);
+            this.btnUser.Location = new System.Drawing.Point(673, 13);
             this.btnUser.Name = "btnUser";
             this.btnUser.Size = new System.Drawing.Size(55, 50);
             this.btnUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -149,7 +149,7 @@
             // btnCategories
             // 
             this.btnCategories.Image = ((System.Drawing.Image)(resources.GetObject("btnCategories.Image")));
-            this.btnCategories.Location = new System.Drawing.Point(537, 12);
+            this.btnCategories.Location = new System.Drawing.Point(544, 13);
             this.btnCategories.Name = "btnCategories";
             this.btnCategories.Size = new System.Drawing.Size(55, 50);
             this.btnCategories.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -160,7 +160,7 @@
             // btnCustomer
             // 
             this.btnCustomer.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomer.Image")));
-            this.btnCustomer.Location = new System.Drawing.Point(422, 12);
+            this.btnCustomer.Location = new System.Drawing.Point(409, 13);
             this.btnCustomer.Name = "btnCustomer";
             this.btnCustomer.Size = new System.Drawing.Size(55, 50);
             this.btnCustomer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -171,7 +171,7 @@
             // btnProduct
             // 
             this.btnProduct.Image = ((System.Drawing.Image)(resources.GetObject("btnProduct.Image")));
-            this.btnProduct.Location = new System.Drawing.Point(296, 12);
+            this.btnProduct.Location = new System.Drawing.Point(265, 13);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Size = new System.Drawing.Size(55, 50);
             this.btnProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -183,22 +183,22 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Goudy Stout", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label1.Location = new System.Drawing.Point(9, 13);
+            this.label1.Location = new System.Drawing.Point(49, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 51);
+            this.label1.Size = new System.Drawing.Size(139, 51);
             this.label1.TabIndex = 8;
-            this.label1.Text = "CU";
+            this.label1.Text = "CIP";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label3.Location = new System.Drawing.Point(18, 66);
+            this.label3.Location = new System.Drawing.Point(55, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(220, 16);
+            this.label3.Size = new System.Drawing.Size(124, 16);
             this.label3.TabIndex = 7;
-            this.label3.Text = "INVENTORY MANGEMENT SYSTEM";
+            this.label3.Text = "CEBU InventoryPro";
             // 
             // panel2
             // 
