@@ -51,5 +51,20 @@ namespace Inventory_System
         {
             openChildForm(new CustomerForm());
         }
+
+        private void btnCategories_Click(object sender, EventArgs e)
+        {
+            openChildForm(new CategoryForm());
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCategories_Click_1(object sender, EventArgs e)
+        {
+            openChildForm(new CategoryForm());
+        }
     }
 }

@@ -180,7 +180,7 @@
             this.checkBoxPass.Name = "checkBoxPass";
             this.checkBoxPass.Size = new System.Drawing.Size(127, 21);
             this.checkBoxPass.TabIndex = 5;
-            this.checkBoxPass.Text = "Show Passowrd";
+            this.checkBoxPass.Text = "Show Password";
             this.checkBoxPass.UseVisualStyleBackColor = true;
             this.checkBoxPass.CheckedChanged += new System.EventHandler(this.checkBoxPass_CheckedChanged);
             // 

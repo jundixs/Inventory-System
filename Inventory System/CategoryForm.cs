@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace Inventory_System
 {
-    public partial class CustomerForm : Form
+    public partial class CategoryForm : Form
     {
-        public CustomerForm()
+        public CategoryForm()
         {
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void dgvCutomer_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void btnAdd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAdd_Click_1(object sender, EventArgs e)
         {
 
         }
