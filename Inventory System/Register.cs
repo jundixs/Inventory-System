@@ -57,5 +57,10 @@ namespace Inventory_System
         {
             this.Dispose();
         }
+
+        private void lblClear_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
